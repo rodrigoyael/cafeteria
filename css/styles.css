@@ -1,5 +1,5 @@
 :root{
-    --fuenteHeadding: 'PT Sans', sans-serif;
+    --fuenteHeading: 'PT Sans', sans-serif;
     --fuenteParrafos: 'Open Sans' sans-serif;
     
     --primario: #784D3C;
@@ -77,4 +77,43 @@ img{
     text-align: center;
     color:var(--blanco);
     margin-top: 5rem;
+}
+@media(min-width: 768px){
+    .barra{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+.header__texto{
+    text-align: center;
+    color: var(--blanco);
+    margin-top: 5rem;
+}
+@media(min-width:768px){
+    .header__texto{
+        margin-top: 20rem;
+    }
+}
+.logo{
+    color:var(--blanco);
+}
+.logo__nombre{
+    font-weight: 300;
+}
+.logo__bold{
+    font-weight: 700;
+}
+
+@media(min-width:768px){
+    .navegacion{
+        display: flex;
+        gap: 2rem;
+    }
+}
+.navegacion__enlace{
+    display: block;
+    text-align: center;
+    font-size: 1.8rem;
+    color:var(--blanco);
 }
